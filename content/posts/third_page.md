@@ -18,4 +18,6 @@ git action 엄청 편리한 것 같은데 어서 익숙해졌으면 좋겠다.
 
 action을 바꾸었다. 이제는 될 때가 됐다....!
 
-또 안되는 건가...dfasdfsadfasdfdf sadf
+
+또 안되는 건가...
+
