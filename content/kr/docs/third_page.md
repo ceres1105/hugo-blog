@@ -4,11 +4,6 @@ date: 2020-06-17T15:42:07+09:00
 draft: false
 ---
 
----
-title: "Third"
-date: 2020-06-17T15:32:19+09:00
-draft: false
----
 
 ## 왜 github action 에서 npm install 과정이 있는 걸까?!
 git action 엄청 편리한 것 같은데 어서 익숙해졌으면 좋겠다. 

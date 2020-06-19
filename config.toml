@@ -2,3 +2,68 @@ baseURL = "https://ceres1105.github.io/blog_2/"
 languageCode = "en-us"
 title = "ceres1105"
 theme = "docsy"
+
+
+# Language settings
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# Language configuration
+[languages]
+[languages.en]
+title = "Blog"
+description = "blog of cording"
+languageName ="English"
+
+# Weight used for sorting.
+weight = 1
+
+[languages.ko]
+title = "Blog"
+description = "blog of cording"
+languageName ="Korean"
+contentDir = "content/ko"
+
+[markup]
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+# Enable Algolia DocSearch
+algolia_docsearch = true
+
+gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+
+
+archived_version = true
+
+disqusShortname = "yourdiscussshortname"
