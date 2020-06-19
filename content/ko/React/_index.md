@@ -1,12 +1,12 @@
 ---
-title: "Blog"
-linkTitle: "Blog"
-weight: 20
+title: "리액트_타이틀"
+linkTitle: "리액트_링크타이틀"
 type: list
-menu:
-  main:
-    weight: 20
+weight: 4
+description: >
+    React를 배워보자
 ---
+
 <!-- {{% pageinfo %}}
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}} -->
