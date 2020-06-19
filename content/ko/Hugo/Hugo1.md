@@ -1,5 +1,5 @@
 ---
-title: "Hugo 블로그 만들기"
+title: "Hugo 블로그 만들기(2): Hugo site 만들기"
 date: 2020-06-18T14:51:48+09:00
 type: docs
 weight: 4
@@ -44,7 +44,8 @@ git init
 //submodule추가하기 (나는 docsy라는 테마를 선택했다.)
 git submodule add https://github.com/ceres1105/docsy.git themes/docsy
 ```
-
+나는 docsy라는 테마를 사용했는데, 이 테마는 scss를 사용하기도 하고 config.toml에 신경쓸 것이 많다. 
+처음 만든다면 일단 quickstart 에서 예시로 나온 ananke 테마로 먼저 연습해보길 바란다.
 ## 3. contents 만들기
 
 `hugo new 폴더이름/파일이름.md ` 
@@ -77,11 +78,16 @@ vi 입력창은 i를 누른다음 내용을 수정할 수 있다.
 수정을 다 한후에는 Esc -> : -> w -> q 를 입력하면 된다. 
 (w는 저장, q는 나가기를 의미한다.) 
 
-### 4. 로컬에서 서버 열기
+## 4. 로컬에서 서버 열기
 
 `hugo server -D` 를 입력하고  http://localhost:1313/ 이 주소로 들어가서 내용이 잘 작성되었는지 확인하면 된다. 
 
 - D 는 draft:true인 항목 (=모든 항목)을 로컬서버에서 보여준다는 뜻이다.
 - D 가 없다면 draft: false인 항목만 로컬서버에서 보여준다.
 
-### 5. repository로 push
+## 5. repository로 push 해주자
+
+### 6. github action 통해 자동으로 배포되도록 한다.
+
+이부분은 다음 페이지에서 다룰 예정이다.
+github action을 통해 배포가 되었다면 `https://깃헙아이디.github.io/레포이름/` 으로 본인 페이지에 접속 할 수 있다. 

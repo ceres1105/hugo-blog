@@ -5,8 +5,8 @@ theme = "docsy"
 
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/ko"
+defaultContentLanguage = "ko"
 defaultContentLanguageInSubdir = false
 
 # Language configuration
