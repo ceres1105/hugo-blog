@@ -189,10 +189,7 @@ enable = false
 #        desc = "Discuss development issues around the project"
 
 # edit this page
-github_repo = "https://github.com/ceres1105/blog_2/"
-github_project_repo = "https://github.com/ceres1105/blog_2/"
-github_subdir = "userguide"
-
+github_repo = "https://github.com/ceres1105/blog_2"
 
 #rss_sections = ["blog"]
 
