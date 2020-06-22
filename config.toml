@@ -1,13 +1,8 @@
 baseURL = "https://ceres1105.github.io/blog_2/"
-title = "ceres1105"
-
-enableRobotsTXT = true
-
-# Hugo allows theme composition (and inheritance). The precedence is from left to right.
+baseURL = "https://ceres1105.github.io/blog_2/"	baseURL = "/"
+languageCode = "en-us"	
+title = "ceres1105"	title = "ceres1105"
 theme = "docsy"
-
-# Will give values to .Lastmod etc.
-enableGitInfo = true
 
 # Language settings
 contentDir = "content/ko"
