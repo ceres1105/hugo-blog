@@ -44,6 +44,11 @@ git init
 //submodule추가하기 (나는 docsy라는 테마를 선택했다.)
 git submodule add https://github.com/ceres1105/docsy.git themes/docsy
 ```
+
+```
+echo 'theme = "테마이름"' >> config.toml
+```
+
 나는 docsy라는 테마를 사용했는데, 이 테마는 scss를 사용하기도 하고 config.toml에 신경쓸 것이 많다. 
 처음 만든다면 일단 quickstart 에서 예시로 나온 ananke 테마로 먼저 연습해보길 바란다.
 ## 3. contents 만들기

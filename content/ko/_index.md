@@ -6,6 +6,7 @@ type: Docs
 menu:
   main:
     weight: 5
+hide_feedback: true 
 ---
 
 

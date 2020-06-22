@@ -41,7 +41,7 @@ weight:
 draft: true
 description: >
 ---
-```
+```cd ..
 ### config
 구성에 관한 지시들이 JSON, YAML, TOML 파일로 저장되어있다. 환경별로 구성할 수 있다. 
 
