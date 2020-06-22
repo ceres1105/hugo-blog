@@ -187,3 +187,7 @@ enable = false
 #	url = "https://example.org/mail"
 #	icon = "fa fa-envelope"
 #        desc = "Discuss development issues around the project"
+
+# edit this page
+github_repo = "https://github.com/ceres1105/blog_2/"
+github_project_repo = "https://github.com/ceres1105/blog_2/"
