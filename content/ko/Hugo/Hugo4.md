@@ -47,7 +47,7 @@ description: >
 
 #### Mark up
 [기본구성](https://gohugo.io/getting-started/configuration-markup#blackfriday)
-공식문서에 나와있는 코드를 거의 다 넣었다.
+공식문서에 나와있는 코드를 거의 다 넣었다..
 
 
 - Gold Mark
