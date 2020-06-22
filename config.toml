@@ -97,7 +97,7 @@ version = "1.0"
 url_latest_version = "https://ceres1105.github.io/blog_2/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://ceres1105.github.io/blog_2/"
+github_repo = "https://github.com/ceres1105/blog_2"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 github_project_repo = "https://github.com/ceres1105/blog_2"
 
@@ -112,7 +112,6 @@ algolia_docsearch = false
 
 # Enable Lunr.js offline search
 offlineSearch = true
-offlineSearchSummaryLength = 200
 
 # User interface configuration
 [params.ui]
@@ -188,9 +187,6 @@ enable = false
 #	icon = "fa fa-envelope"
 #        desc = "Discuss development issues around the project"
 
-# edit this page
-github_repo = "https://github.com/ceres1105/blog_2"
-github_brach = "gh-pages"
 
 #rss_sections = ["blog"]
 
