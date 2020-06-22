@@ -1,10 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ceres's blog – 리액트_타이틀</title><link>/react/</link><description>Recent content in 리액트_타이틀 on ceres's blog</description><generator>Hugo -- gohugo.io</generator><atom:link href="/react/index.xml" rel="self" type="application/rss+xml"/><item><title>React: About</title><link>/react/about/</link><pubDate>Thu, 18 Jun 2020 12:21:19 +0900</pubDate><guid>/react/about/</guid><description>
-&lt;p>언제쯤 화면에 보일까&lt;/p></description></item><item><title>React: Third_page</title><link>/react/third_page/</link><pubDate>Wed, 17 Jun 2020 15:42:07 +0900</pubDate><guid>/react/third_page/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ceres's blog – 리액트_타이틀</title><link>https://ceres1105.github.io/blog_2/react/</link><description>Recent content in 리액트_타이틀 on ceres's blog</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://ceres1105.github.io/blog_2/react/index.xml" rel="self" type="application/rss+xml"/><item><title>React: About</title><link>https://ceres1105.github.io/blog_2/react/about/</link><pubDate>Thu, 18 Jun 2020 12:21:19 +0900</pubDate><guid>https://ceres1105.github.io/blog_2/react/about/</guid><description>
+&lt;p>언제쯤 화면에 보일까&lt;/p></description></item><item><title>React: Third_page</title><link>https://ceres1105.github.io/blog_2/react/third_page/</link><pubDate>Wed, 17 Jun 2020 15:42:07 +0900</pubDate><guid>https://ceres1105.github.io/blog_2/react/third_page/</guid><description>
 &lt;h2 id="왜-github-action-에서-npm-install-과정이-있는-걸까">왜 github action 에서 npm install 과정이 있는 걸까?!&lt;/h2>
 &lt;p>git action 엄청 편리한 것 같은데 어서 익숙해졌으면 좋겠다.&lt;/p>
 &lt;p>아니 왜 push를 하면 everything up-to-date라고 뜨는지 이해가 안가네
 변화가 발생했는데 저 코드만 뜨고 push가 진행이 되지 않는다.&lt;/p>
-&lt;p>action을 바꾸었다. 이제는 될 때가 됐다&amp;hellip;.!&lt;/p></description></item><item><title>React: First Post</title><link>/react/first-post/</link><pubDate>Wed, 17 Jun 2020 10:22:03 +0900</pubDate><guid>/react/first-post/</guid><description>
+&lt;p>action을 바꾸었다. 이제는 될 때가 됐다&amp;hellip;.!&lt;/p></description></item><item><title>React: First Post</title><link>https://ceres1105.github.io/blog_2/react/first-post/</link><pubDate>Wed, 17 Jun 2020 10:22:03 +0900</pubDate><guid>https://ceres1105.github.io/blog_2/react/first-post/</guid><description>
 &lt;h3 id="hugo-사용법">Hugo 사용법&lt;/h3>
 &lt;ol>
 &lt;li>Install hugo&lt;/li>
