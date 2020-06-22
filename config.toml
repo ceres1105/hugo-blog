@@ -22,8 +22,8 @@ languageName ="English"
 weight = 1
 
 [languages.ko]
-title = "Blog"
-description = "blog of cording"
+title = "ceres's blog"
+description = "blog of coding"
 languageName ="Korean"
 contentDir = "content/ko"
 
