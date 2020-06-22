@@ -190,6 +190,7 @@ enable = false
 
 # edit this page
 github_repo = "https://github.com/ceres1105/blog_2"
+github_brach = "gh-pages"
 
 #rss_sections = ["blog"]
 
