@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://ceres1105.github.io/blog_2/"
 title = "ceres1105"
 
 enableRobotsTXT = true
