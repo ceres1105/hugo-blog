@@ -1,7 +1,6 @@
 baseURL = "https://ceres1105.github.io/blog_2/"
-baseURL = "https://ceres1105.github.io/blog_2/"	baseURL = "/"
-languageCode = "en-us"	
-title = "ceres1105"	title = "ceres1105"
+languageCode = "en-us"
+title = "ceres1105"
 theme = "docsy"
 
 # Language settings

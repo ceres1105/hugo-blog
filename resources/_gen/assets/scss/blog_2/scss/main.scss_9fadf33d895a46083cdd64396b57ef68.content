@@ -12320,7 +12320,7 @@ readers do not read off random characters that represent icons */
 
 .td-content pre {
   word-wrap: normal;
-  background-color: #000;
+  background-color: #f8f9fa;
   padding: 1rem; }
   .td-content pre > code {
     padding: 0;
