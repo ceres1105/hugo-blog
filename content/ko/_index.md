@@ -8,7 +8,9 @@ menu:
     weight: 5
 hide_feedback: true 
 ---
-
+body {
+  backgroudcolor: red;
+}
 
 <!-- {{% pageinfo %}}
 This is a placeholder page that shows you how to use this template site.
