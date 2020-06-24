@@ -12,20 +12,23 @@ defaultContentLanguageInSubdir = false
 enableMissingTranslationPlaceholders = true
 
 # Language configuration
-[languages]
-[languages.en]
-title = "Blog"
-description = "blog of cording"
-languageName ="English"
+[languages.ko]
+title = "ceres's blog"
+languageName ="Korean"
+contentDir = "content/ko"
+time_format_default = "2006.01.02"
+time_format_blog = "2006.01.02"
 
 # Weight used for sorting.
 weight = 1
-
-[languages.ko]
-title = "ceres's blog"
-description = "blog of coding"
-languageName ="Korean"
-contentDir = "content/ko"
+[languages]
+[languages.en]
+title = "Ceres Blog"
+description = "blog of cording"
+languageName ="English"
+contentDir = "content/en"
+time_format_default = "02.01.2006"
+time_format_blog = "02.01.2006"
 
 # Useful when translating.
 enableMissingTranslationPlaceholders = true

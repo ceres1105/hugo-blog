@@ -17,8 +17,9 @@ description: >
 document page가 있어 보면서 커스터마이징을 진행했다.  [DOCSY SITE](https://www.docsy.dev/docs/)
 
 ## Post CSS 설치
-sudo npm install -D --save autoprefixer
-sudo npm install -D --save postcss-cli
+`sudo npm install -D --save autoprefixer`
+`sudo npm install -D --save postcss-cli`
 
-### 컨텐츠 추가하기
+cnrk
+## 컨텐츠 추가하기
 - 컨텐츠 루트 디렉토리: `content/`
