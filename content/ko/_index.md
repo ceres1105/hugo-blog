@@ -1,12 +1,11 @@
 ---
-title: "프런트앤드_타이틀"
-linkTitle: "프런트앤드_링크타이틀"
+title: "Contents"
+linkTitle: "Blog"
 weight: 5
 type: Docs
 menu:
   main:
     weight: 5
-hide_feedback: true 
 ---
 
 <!-- {{% pageinfo %}}

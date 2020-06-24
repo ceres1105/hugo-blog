@@ -1,10 +1,10 @@
 ---
-title: "Hugo_타이틀"
-linkTitle: "Hugo_링크타이틀"
+title: "Hugo로 블로그 만들기"
+linkTitle: "Hugo로 블로그 만들기"
 type: docs
 weight: 4
 description: >
-    Hugo를 배워보자
+    hugo + github action 으로 github.io 페이지 만들기
 ---
 
 <!-- {{% pageinfo %}}

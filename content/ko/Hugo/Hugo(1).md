@@ -1,5 +1,5 @@
 ---
-title: "Hugo 블로그 만들기(2): Hugo site 만들기"
+title: "Hugo 블로그 만들기(1): Hugo site 만들기"
 date: 2020-06-18T14:51:48+09:00
 type: docs
 weight: 4
@@ -10,13 +10,13 @@ description: >
 ## 0. Github에서 repository를 만든 다음 clone을 받는다.
 
 ## 1. hugo new site 폴더이름
-터미널을 통해 clone 받은 디렉토리로 이동해
+터미널에서  clone 받은 디렉토리로 이동해
   `hugo new site 이름` 명령어를 입력하면 hugo site가 생성된다.
   ```
   //예시 (이름을 blog로 지었다.)
   hugo new site blog
   ``` 
- 만들고 나면 나오는 화면이다. congratulations 라고 적혀있다. 
+ 만들고 난 후 congratulations 라고 적혀있는 걸 볼 수 있다. 
 
 ![](https://images.velog.io/images/ceres/post/c6586bc5-ef84-4959-bc4d-2884430e4b2b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-19%2015-40-27.png)
 

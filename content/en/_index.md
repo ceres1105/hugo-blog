@@ -1,6 +1,6 @@
 ---
-title: "Front-end"
-linkTitle: "Front-end"
+title: "Contents"
+linkTitle: "Blog"
 weight: 5
 type: Docs
 menu:

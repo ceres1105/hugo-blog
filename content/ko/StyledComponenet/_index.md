@@ -1,11 +1,11 @@
 ---
-title: "스타일드컴퍼넌트 타이틀"
+title: "스타일드컴퍼넌트_타이틀"
 linkTitle: "스타일드컴퍼넌트_링크타이틀"
 type: docs
 weight: 4
 hide_feedback: true 
 description: >
-    React를 배워보자
+    StyledComponent를 배워보자
 ---
 
 <!-- {{% pageinfo %}}

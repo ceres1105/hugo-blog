@@ -3,7 +3,6 @@ title: "Hugo 블로그 만들기(4) : hugo 디렉터리구조"
 date: 2020-06-18T14:51:48+09:00
 type: docs
 weight: 4
-draft: false
 description: >
  github action 사용해서 hugo blog 만들기 (4)
 ---
