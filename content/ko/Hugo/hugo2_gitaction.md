@@ -1,12 +1,14 @@
 ---
-title: "3. Github Action으로 블로그 자동 배포하기"
+title: "2. Github Action으로 블로그 자동 배포하기"
 date: 2020-06-24T17:59:27+09:00
 type: docs
-weight: 
+weight: 2
 draft: false
 description: >
     hugo + github action 으로 github.io 페이지 만들기
 ---
+공식 문서를 보면 hugo로 만든 사이트를 배포하기 위해서는 github repository가 2개 필요하다. 하지만 github acion을 사용해 업로드를 자동화하면 repository 한개로 컨텐츠 업로드 부터 배포까지 할 수 있어 훨씬 효율적이다. 
+ 
 
 ## __Github Action 시작하기__ 
 github action은 repository에서 발생하는 이벤트를 처리할 수 있는 인터페이스를 제공한다. repository 별로 가상 서버를 제공하는데, 이 서버를 사용하려면 해당 repository에 대한 접근권한이 있어야 한다. 접근권한을 위해 필요한 것이 github access token이다.
@@ -28,7 +30,17 @@ github action은 repository에서 발생하는 이벤트를 처리할 수 있는
 <img src="https://images.velog.io/images/ceres/post/f8e7baae-0010-490a-947a-51a749c30283/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-19%2016-22-54.png" width=70%>
 
 ### __2. Github Action__
-블로그 배포를 위한 github action을 작성해 보았다. 
+github action을 실행하는 방법은 레포지토리로 들어가서 상단에 있는 `Action` 버튼을 클릭한다.
+
+![](https://images.velog.io/images/ceres/post/134b9231-b8e7-44a1-b93f-bf63c293b73a/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-25%2017-35-16.png)
+
+</br>
+그 다음 `Set up this workflow`를 클릭한 후 action을 작성하면 된다. 
+
+![](https://images.velog.io/images/ceres/post/32ca89cd-aed8-418e-a4ba-f0cf2c464e4e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-25%2017-39-43.png)
+
+</br>
+아래는 githup page 배포를 위한 github action을 작성한 것이다. 
 
 ```
 # action 이름. 원하는대로 정하면 된다. 
@@ -96,3 +108,7 @@ jobs:
         publish_branch: gh-pages
         publish_dir: ./public
 ```
+
+github action을 통해 배포가 되었다면 `https://깃헙아이디.github.io/레포이름/` 에서 본인 페이지를 확인 할 수 있을 것이다.
+
+<span style="color: red"> 이제 내용을 수정하고 `git add .` -> `git commit -m "메세지내용"` -> `git push` 과정만 거치면 자동으로 빌드와 배포가 된다! </span>

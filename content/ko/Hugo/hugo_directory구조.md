@@ -3,6 +3,7 @@ title: "Hugo 블로그 만들기(4) : hugo 디렉터리구조"
 date: 2020-06-18T14:51:48+09:00
 type: docs
 weight: 4
+draft: true
 description: >
  github action 사용해서 hugo blog 만들기 (4)
 ---
@@ -17,7 +18,7 @@ description: >
 
 ### archetypes
 아키타입. hugo에서 contents를 만들때 `hugo new`명령을 사용하거나 직접 파일을 만든다.
-`hugo new` 명령어를 사용하면 파일에 default 되어있는 내용이 있다. archetypes에서는 default 값들을 수정할 수 있다. 
+`hugo new` 명령어를 사용하면 파일에 default 되어있는 내용이 있다. archetypes에서는 default 값들을 수정할 수 있다. 각 테마에 맞게 수정해서 사용하면 편하다. 
 
 ```
 //default 내용이다. 
