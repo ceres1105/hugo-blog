@@ -1,4 +1,4 @@
-baseURL = "https://ceres1105.github.io/blog_2/"
+baseURL = "https://ceres1105.github.io/hugo/"
 languageCode = "en-us"
 title = "ceres1105"
 theme = "docsy"
@@ -97,12 +97,12 @@ version = "1.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://ceres1105.github.io/blog_2/"
+url_latest_version = "https://ceres1105.github.io/hugo/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/ceres1105/blog_2"
+github_repo = "https://github.com/ceres1105/hugo"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/ceres1105/blog_2"
+github_project_repo = "https://github.com/ceres1105/hugo"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -174,7 +174,7 @@ enable = false
 
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/ceres1105/blog_2"
+	url = "https://github.com/ceres1105/hugo"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 
