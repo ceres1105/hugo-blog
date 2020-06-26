@@ -1,10 +1,10 @@
 ---
-title: "Learn React"
-linkTitle: "React"
+title: "index_title"
+linkTitle: "index_linkTitle"
 type: docs
 weight: 4
 description: >
-    React를 배워보자
+    index_description
 ---
 
 <!-- {{% pageinfo %}}
@@ -19,5 +19,4 @@ For large documentation sets we recommend adding content under the headings in t
 Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
 
 Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/). -->
-
 

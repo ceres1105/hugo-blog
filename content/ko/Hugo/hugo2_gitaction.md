@@ -7,7 +7,7 @@ draft: false
 description: >
     hugo + github action 으로 github.io 페이지 만들기
 ---
-공식 문서를 보면 hugo로 만든 사이트를 배포하기 위해서는 github repository가 2개 필요하다. 하지만 github acion을 사용해 업로드를 자동화하면 repository 한개로 컨텐츠 업로드 부터 배포까지 할 수 있어 훨씬 효율적이다. 
+> 공식 문서를 보면 hugo로 만든 사이트를 배포하기 위해서는 github repository가 2개 필요하다. 하지만 github acion을 사용해 업로드를 자동화하면 repository 한개로 컨텐츠 업로드 부터 배포까지 할 수 있어 훨씬 효율적이다. 
  
 
 ## __Github Action 시작하기__ 
