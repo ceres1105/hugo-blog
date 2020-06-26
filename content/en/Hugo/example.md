@@ -1,10 +1,11 @@
 ---
-title: "file_title"
-date: 2020-06-24T15:44:44+09:00
+title: "Hugo blog example"
+date: 2020-06-18T14:51:48+09:00
 type: docs
-weight: 1
-description: > 
-    file_description
+weight: 4
+draft: true
+description: >
+ Hugo Blog example
 ---
 
-file_content
+contents
