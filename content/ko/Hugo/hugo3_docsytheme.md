@@ -175,6 +175,7 @@ algolia_docsearch = false
 ![](https://images.velog.io/images/ceres/post/b55aa2c4-e926-4d88-a8ef-8fcc8c78c3f3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-25%2018-44-03.png)
 
 config.toml 에 `github_repo = "레포지토리 주소"` 내용을 넣어주면 되지만 project_repo까지 적었다. 그대로 복붙헤서 레포지토리 주소만 바꾸면 된다.
+
 ```
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/ceres1105/blog_2"
@@ -184,8 +185,8 @@ github_project_repo = "https://github.com/ceres1105/blog_2"
 
 ### 4) footer: 다양한 링크 추가
 footer에 메일, 트위터, 스택오버플로우 등 다양한 링크를 추가할 수 있다. 
-
 cofig.toml에 추가하면 된다. 아래 내용에서 사용 링크는 url 주소를 바꾸고, 사용하지 않을 링크는 `#`을 사용해서 주석처리를 하거나 지우면 된다. 
+
 ```
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
@@ -222,19 +223,65 @@ cofig.toml에 추가하면 된다. 아래 내용에서 사용 링크는 url 주�
         desc = "Discuss development issues around the project"
 ```
 
+### 5) Highlight 기능
+> Highlight를 넣고 싶은 문장 앞에 ![](https://images.velog.io/images/ceres/post/ff8c78b7-7825-47a3-8020-fbaf5e7e76da/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-26%2010-44-43.png) 를 적어주고 문장 뒤에 ![](https://images.velog.io/images/ceres/post/e299b2b9-9010-423d-b0b0-cc39f925dc6d/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-26%2010-46-22.png) 를 적으면 된다.
 
-## __3. Docsy 테마 CSS 변경__
+- 예시) `v` 표시 한 곳만 highlight를 넣고 싶다면 아래처럼 코드를 짜면 된다.
+
+![](https://images.velog.io/images/ceres/post/c7ab9f62-85d9-4e8c-a2aa-b1a87ace8a6e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-26%2010-49-06.png)
+``` 
+[[params.links.user]]
+	v name = "User mailing list"
+	v url = "https://example.org/mail"
+	icon = "fa fa-envelope"
+        desc = "Discussion and help from your fellow users"
+[[params.links.user]]
+	v name ="Twitter"
+	v url = "https://example.org/twitter"
+	icon = "fab fa-twitter"
+        desc = "Follow us on Twitter to get the latest news!"
+```
+![](https://images.velog.io/images/ceres/post/e299b2b9-9010-423d-b0b0-cc39f925dc6d/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-26%2010-46-22.png)
+
+- 결과물
+
+![](https://images.velog.io/images/ceres/post/b6563ea2-f75a-4664-a55b-c7989bf477fd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-25%2020-10-02.png)
+
+2-3, 7-8번 째 줄에 Highligt 가 된것을 볼 수 있다. 
+또 가장 윗 줄이 숫자 1번으로 시작한 것을 볼 수 있다. 
+
+
+## __4. Docsy 테마 CSS 변경__
 Docsy 테마에만 적용되는 점은 아니다. 모든 테마에서 적용된다. 
 
-<span style="color:red"> __가장 중요한 점은 theme 폴더를 직접 건드리지 않는다는 것이다.__ </span>
+<span style="color:red"> __가장 중요한 점은 theme 폴더를 직접 건드리지 않아야 한다.__ </span>
 
-theme 폴더 내부의 docsy 폴더를 보면 css가 있는 폴더가 있을 것이다. 그 폴더를 root 폴더에 복사 붙여넣기 한다.
+theme폴더 내부의 docsy 폴더를 보면 css가 있는 폴더가 있을 것이다. 그 폴더를 root 폴더에 복사 한다.
 
 그렇게 되면 root 폴더에 있는 css 들이 우선순위를 갖게 된다. 바꾸고 싶은 css가 있다면 root 폴더에서 수정하면 된다.
 
-이론은 이러한데 직접해보니 모든 css 파일에 적용되진 않았다. default 색상, 크기 정도 수정이 가능했다.
+이론은 이러한데 직접해보니 모든 css 파일에 적용되진 않았다. default 색상, 크기, font 정도 수정이 가능했다.
 
-## __4. Docsy 테마 Layout 변경__
+- 자세한 예시 
+
+	scss 폴더는 `root폴더>themes>docsy>assets>scss` 이렇게 들어가면 된다. 나는 assets 폴더 전체를 root 에 복사하였다.  
+
+	여러 파일을 수정해본 결과 수정이 먹히는 파일은  `_variables.scss` 였다. 때문에 이 파일만 옮겨도 될 듯하다. 
+`_vairables.scss` 파일에선 default 되어있는 color, font, size 등을 바꿀 수 있다. 
+
+- font 를 바꿔보자
+
+	`_variables.scss` 파일의 font 부분이다.
+
+	![](https://images.velog.io/images/ceres/post/ad8f2cb6-1537-4fe0-835b-a0433cb3606a/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-25%2020-18-24.png)
+
+	https://fonts.google.com/ 사이트에서 font를 고르고 $google_font_name, $google_font_family 에서 font 이름만 바꿔주면 된다.
+
+	하지만 ` ``` ``` ` 코드 내의 폰트 어떻게 바꿔야 할지 모르겠다. 여기에 한글을 적으면 약간 깨져 보이는 것 같은데 방법을 찾아봐야겠다.
+
+## __5. Docsy 테마 Layout 변경__
 footer를 추가하거나 sidebar를 추가하는 등 layout을 수정했다. 
 
-layout도 css와 같다. theme>docsy 폴더에서 추가하고 싶은 layout 들을 복사하여 root>layouts 폴더에 붙여 넣었다.  
+layout도 css와 같다. `root>theme>docsy>layouts`에서 필요한 부분만 `root>layouts`에 복사하면 된다. 
+
+`root>theme>docsy>layouts` 에서 `_default`폴더와 `404.html`,`home.html` 파일을 복사하고, 나머지는 필요한 부분만 복사하면 되는 듯 하다. 나는 sidebar 를 사용할거라 `partials` 폴더에서 section-index.html sidebar_tree.html 을 복사하였다. 

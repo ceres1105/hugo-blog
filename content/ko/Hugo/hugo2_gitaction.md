@@ -42,6 +42,7 @@ github action을 실행하는 방법은 레포지토리로 들어가서 상단�
 </br>
 아래는 githup page 배포를 위한 github action을 작성한 것이다. 
 
+{{< highlight go "linenos=table,hl_lines=1-100,linenostart=1" >}}
 ```
 # action 이름. 원하는대로 정하면 된다. 
 name: hugo deploy1
@@ -108,6 +109,7 @@ jobs:
         publish_branch: gh-pages
         publish_dir: ./public
 ```
+{{< / highlight >}}
 
 github action을 통해 배포가 되었다면 `https://깃헙아이디.github.io/레포이름/` 에서 본인 페이지를 확인 할 수 있을 것이다.
 
