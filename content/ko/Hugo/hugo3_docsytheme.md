@@ -53,7 +53,7 @@ git submodule update --init --recursive
 
 ### 1) archetypes 수정
 
-docsy theme에 맞게 page의 front matter를 수정했다.
+docsy theme에 맞게 page의 front matter를 수정했다..
 ```
 ---
 title: "{{ replace .Name "-" " " | title }}"
@@ -153,7 +153,7 @@ layout: search
 
 2. search 기능은 2가지 방법이 있다. 나는 local search를 선택했다.
 
-config.toml에 아래 내용을 추가 해주면 된다.
+config.toml에 아래 내용을 추가 해주면 된다..
 ```
 # Enable Lunr.js offline search
 offlineSearch = true
@@ -174,7 +174,7 @@ algolia_docsearch = false
 오른쪽 side bar에 있는 기능이다. `페이지 편집`을 누르면 해당 페이지를 수정할 수 있는 github 페이지가 열린다.
 ![](https://images.velog.io/images/ceres/post/b55aa2c4-e926-4d88-a8ef-8fcc8c78c3f3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7,%202020-06-25%2018-44-03.png)
 
-config.toml 에 `github_repo = "레포지토리 주소"` 내용을 넣어주면 되지만 project_repo까지 적었다. 그대로 복붙헤서 레포지토리 주소만 바꾸면 된다.
+config.toml 에 `github_repo = "레포지토리 주소"` 내용을 넣어주면 되지만 project_repo까지 적었다. 그대로 복붙헤서 레포지토리 주소만 바꾸면 된다.....
 
 ```
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
