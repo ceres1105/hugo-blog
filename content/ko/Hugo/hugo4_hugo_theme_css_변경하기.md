@@ -21,3 +21,6 @@ description: >
 그러면 git action이 작동하고, css를 변경한 dosy theme를 submodule 로 받아오면서 css가 적용된다.  
 
 주의할점! main repo에 fork 한 theme주소가 submoulde로 등록이 되어있어야 한다.!
+
+### Flow 2
+따로 clone 받지 않고 main repo에서 모든 작업을 하는 방법이다.
