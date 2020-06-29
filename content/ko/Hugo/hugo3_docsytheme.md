@@ -31,7 +31,7 @@ sudo npm install -D --save postcss-cli
 
 `git init` 코드를 친 후 프로젝트 내용에 대해 적어주자. 잘 모르겠으면 git init 후 엔터를 연달아 치면 package.json 파일이 만들어져 있는걸 볼 수 있다. 
 
-package.json이 설치 된 후에 다시 PostCss 설치를 하니 잘 작동했다..!
+package.json이 설치 된 후에 다시 PostCss 설치를 하니 잘 작동했다.
 
 ### 2) Docsy 테마 submodule에 추가
 
