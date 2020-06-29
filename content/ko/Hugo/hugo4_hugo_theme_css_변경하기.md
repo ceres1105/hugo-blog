@@ -25,4 +25,6 @@ description: >
 ### Flow 2
 따로 clone 받지 않고 main repo에서 모든 작업을 하는 방법이다. 
 1. `cd main repo>theme>docsy` 에서 `remote -v` 를 통해 docsy 폴더의 origin remote가 fork 한 theme repo인지 확인한다. 
-2. 
+2. theme repo라면 css 변경한 후 theme repo에다 git push 하자 
+
+아아아아아
