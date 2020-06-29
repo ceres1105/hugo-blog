@@ -24,4 +24,4 @@ description: >
 
 ### Flow 2
 따로 clone 받지 않고 main repo에서 모든 작업을 하는 방법이다. 
-1. `cd main repo>theme>docsy`
+1. `cd main repo>theme>docsy` 에서 `remote -v`
