@@ -7,3 +7,6 @@
 [submodule "docsy"]
 	path = docsy
 	url = https://github.com/ceres1105/docsy.git
+[submodule "theme/docsy"]
+	path = theme/docsy
+	url = git@github.com:ceres1105/docsy.git
