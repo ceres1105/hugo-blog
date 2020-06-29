@@ -37,7 +37,7 @@ package.json이 설치 된 후에 다시 PostCss 설치를 하니 잘 작동했�
 
 앞 포스팅과 내용이 같다. hugo site 제작 `hugo new site 폴더명` -> 만든 디렉토리로 이동 `cd 폴더명` -> git 초기화 `git init` -> 서브모듈추가 `git submodule add 깃헙주소 themes/테마이름` -> config.toml 파일에 테마 추가 `echo 'theme = "테마이름"' >> config.toml` -> 로컬로 구축시 필요한 코드 작성`git submodule update --init --recursive`
 
-정리하면 아래와 같다.
+정리하면 아래와 같다
 ```
 hugo new site ceres_blog
 cd ceres_blog
