@@ -53,7 +53,7 @@ git submodule update --init --recursive
 
 ### 1) archetypes 수정
 
-docsy theme에 맞게 page의 front matter를 수정했다..
+docsy theme에 맞게 page의 front matter를 수정했다.
 ```
 ---
 title: "{{ replace .Name "-" " " | title }}"
