@@ -1,7 +1,7 @@
 on:
   repository_dispatch:
-    types: [run_tests]
-name: Run tests
+    types: [run_deploy]
+name: Run Deploy
 jobs:
   test:
     name: Run your tests
@@ -9,3 +9,16 @@ jobs:
     steps:
       - run: |
           echo "I just ran all your tests!"
+          
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+      
+      - name: copy file via ssh password
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER_NAME }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          source: "./*"
+          target: ${{ secrets.REMOTE_TARGET}}
